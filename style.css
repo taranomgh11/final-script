@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+/* top navbar */
+.topnavbar{
+    display: flex;
+    justify-content: center;
+    color: #205140;
+    
+}
+.topnavbar p{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.topnavbar .icons{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.topnavbar a{
+    text-decoration: none;
+    color: #205140;
+    margin-left: 10px;
+}
+.topnavbar a img{
+    margin-bottom: 3px;
+}
+.topnavbar a:hover{
+    color: #205140;
+}
+@media screen and (max-width:400px){
+    .topnavbar a{
+        font-size: 13px;
+    }
+    .topnavbar a img{
+        width: 15px;
+    }
+    .topnavbar p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:320px){
+    .topnavbar a{
+        font-size: 10px;
+    }
+    .topnavbar a img{
+        width: 13px;
+    }
+    .topnavbar p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:318px){
+    .topnavbar a{
+        font-size: 8px;
+        margin-left: 0;
+    }
+    .topnavbar a img{
+        width: 10px;
+        margin-left: 0;
+    }
+    .topnavbar p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
+/* top navbar */
+
+/* navbar */
+#navbar{
+    background-color: #205140;
+}
+#logo{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#logo span{
+    color: #F9BC28;
+}
+#logo #span1{
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color: #F9BC28;
+    box-shadow: #ece6da;
+}
+.dropdown-menu li a{
+    color: white;
+    transition: 0.5s ease;
+}
+.dropdown-menu li a:hover{
+    background-color: #205140;
+    color: #F9BC28;
+}
+#search input{
+    border-radius: 50px;
+    border: none;
+}
+#search button{
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #F9BC28;
+    background-color: #F9BC28;
+}
