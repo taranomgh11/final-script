@@ -706,3 +706,26 @@ color: #F9BC28;
     }
 }
 /* login */
+
+
+
+
+
+/* about */
+#about{
+    margin-top: 30px;
+}
+#about h3{
+    font-weight: bold;
+    color: #F9BC28;
+    text-shadow: 0px 1px 1px rgb(87, 87, 87);
+}
+#about button{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background-color: #205140;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* about */
