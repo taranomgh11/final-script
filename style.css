@@ -5,35 +5,28 @@
     outline: none;
     font-family: 'Merriweather', serif;
 }
-/* top navbar */
 .topnavbar{
     display: flex;
-    justify-content: center;
-    color: #205140;
-    
+    justify-content: space-between;
 }
 .topnavbar p{
     margin-top: 13px;
     margin-left: 15px;
-    
 }
-
 .topnavbar .icons{
-   
     margin-top: 13px;
     margin-right: 15px;
-    
 }
 .topnavbar a{
     text-decoration: none;
-    color: #205140;
+    color: black;
     margin-left: 10px;
 }
 .topnavbar a img{
     margin-bottom: 3px;
 }
 .topnavbar a:hover{
-    color: #205140;
+    color: black;
 }
 @media screen and (max-width:400px){
     .topnavbar a{
@@ -53,7 +46,7 @@
     .topnavbar a img{
         width: 13px;
     }
-    .topnavbar p{
+    .top-navbar p{
         font-size: 10px;
     }
 }
@@ -271,7 +264,7 @@
     margin-top: 30px;
 }
 #other-cards .card{
-    background-color: #F9BC28;
+    background-color: #f9ba28bd;
 }
 
 #other-cards .card1{
